@@ -1,0 +1,40 @@
+{
+"intents" :[
+
+   { 
+    "tag":"greeting",
+    "patterns":["hello","whats up","how are you","HI"],
+    "responses":["good to see you ","hi there","how can i help"],
+    "context_set":""
+   },
+
+   {
+    "tag":"GOODBYE",
+    "patterns":["GOODBYE","see you later","i have to go","have a good day"],
+    "responses":["sad to see you go","later","next time"],
+    "context_set":""
+   },
+
+   {
+    "tag":"name",
+    "patterns":["whats your name","what shold i call you","what is you name"],
+    "responses":["smartbot ","you can call me smartbot","i'm smartbot"],
+    "context_set":""
+   },
+
+   {
+    "tag":"age",
+    "patterns":["how old are you","how old","what is your age","age?"],
+    "responses":["i'm borne in 2021"],
+    "context_set":""
+   },
+
+   {
+    "tag":"time",
+    "patterns":["time"],
+    "responses":[ "now"],
+    "context_set":""
+   }
+
+]
+}
